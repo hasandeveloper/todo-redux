@@ -1,14 +1,11 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import { Todo } from './components/Todo';
-import store from "./Services/Store/store";
-
-function App() {
+import React from 'react'
+import { Home } from './Components/Home'
+const App = () => {
   return (
-    <Provider store={store}>
-      <Todo />
-    </Provider>
-  );
+    <div>
+      <Home/>
+    </div>
+  )
 }
 
-export default App;
+export default App
